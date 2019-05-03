@@ -3,6 +3,8 @@ import React, {Component}from 'react';
 // import React from 'react';
 import './App.css';
 import Person from './Person/Person'
+import Home from './Home/Home'
+import Navbar from './NavBar/NavBar';
 
 class App extends Component {
   state = {
@@ -17,11 +19,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <Navbar />
     <h1>Hello World</h1>
     <p>I didn't think about it, but this is working!</p>
     <Person name={this.state.persons[0].name} age={this.state.persons[0].age} />
     <Person name="JJ" age="44"/>
     <Person name="Stephanie" age="23">My Hobbies: Racing</Person>
+    <Home />
   </div>
     );
   }
