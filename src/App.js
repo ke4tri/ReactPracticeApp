@@ -20,11 +20,11 @@ class App extends Component {
     return (
       <div className="App">
       <Navbar />
-    <h1>Hello World</h1>
-    <p>I didn't think about it, but this is working!</p>
-    <Person name={this.state.persons[0].name} age={this.state.persons[0].age} />
+    {/* <h1>Hello World</h1>
+    <p>I didn't think about it, but this is working!</p> */}
+    {/* <Person name={this.state.persons[0].name} age={this.state.persons[0].age} />
     <Person name="JJ" age="44"/>
-    <Person name="Stephanie" age="23">My Hobbies: Racing</Person>
+    <Person name="Stephanie" age="23">My Hobbies: Racing</Person> */}
     <Home />
   </div>
     );
