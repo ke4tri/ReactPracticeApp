@@ -1,17 +1,17 @@
 import React from 'react';
 import './Home.scss';
-
-
-
+import HomeLogo from '../HomeLogo/HomeLogo';
+import HomeBackImage from '../HomeBackImage/HomeBackImage'
 
 const home = (props) => {
   return (
-    <div className="backgroundImage" >
-      <img className="backgroundImage" src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEX//wCKxvRFAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII='/>
+    <div className="containerDiv">
+   
+    <HomeBackImage />
+    <HomeLogo />
+      <img className="backgroundImage" src='https://tse4.mm.bing.net/th?id=OIP.mMDYYNczFB-bVf9rGMWsdwE8DF'/>
     </div>
   )
-
-
 }
 
 export default home;

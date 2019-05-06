@@ -1,0 +1,38 @@
+
+
+// .image {
+//   position: absolute;
+//   z-index: -1;
+//   top: 5%;
+//   left: 25%;
+//   width: 120px;
+//   height: 120px;
+//   margin:-60px 0 0 -60px;
+//  -webkit-animation:spin 4s linear infinite;
+//  -moz-animation:spin 4s linear infinite;
+//   animation:spin 4s linear infinite;
+// }
+// @-moz-keyframes spin { 40% { -moz-transform: rotate(50deg); } }
+// @-webkit-keyframes spin { 50% { -webkit-transform: rotate(50deg); } }
+// @keyframes spin { 30% { -webkit-transform: rotate(50deg);ransform:rotate(50deg); } }
+
+.image {
+    position: absolute;
+  z-index: -1;
+  top: 5%;
+  left: 25%;
+  width: 120px;
+  height: 120px;
+  margin:-60px 0 0 -60px;
+  animation: rotation 8s infinite ;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+
+}
