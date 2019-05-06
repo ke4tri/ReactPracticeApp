@@ -8,11 +8,11 @@ import Navbar from './NavBar/NavBar';
 
 class App extends Component {
   state = {
-    persons: [
-      {name: "Max", age: 28},
-      {name: "JJ", age: 44},
-      {name: "Stephanie", age: 23}
-    ]
+    // persons: [
+    //   {name: "Max", age: 28},
+    //   {name: "JJ", age: 44},
+    //   {name: "Stephanie", age: 23}
+    //]
      
   }
 
@@ -20,30 +20,12 @@ class App extends Component {
     return (
       <div className="App">
       <Navbar />
-    {/* <h1>Hello World</h1>
-    <p>I didn't think about it, but this is working!</p> */}
-    {/* <Person name={this.state.persons[0].name} age={this.state.persons[0].age} />
-    <Person name="JJ" age="44"/>
-    <Person name="Stephanie" age="23">My Hobbies: Racing</Person> */}
-    <Home />
+      <Home />
   </div>
     );
   }
 }
 
-// function App() {
-  
-//   return (
-//     <div className="App">
-//       <h1>Hello World</h1>
-//       <p>I didn't think about it, but this is working!</p>
-//       <button>Switch Name</button>
-//       <Person name="Max" age="28" />
-//       <Person name="JJ" age="44"/>
-//       <Person name="Stephanie" age="23">My Hobbies: Racing</Person>
-//     </div>
-//   );
-// }
 
 export default App;
 
