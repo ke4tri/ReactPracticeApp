@@ -8,11 +8,7 @@ import Navbar from './NavBar/NavBar';
 
 class App extends Component {
   state = {
-    // persons: [
-    //   {name: "Max", age: 28},
-    //   {name: "JJ", age: 44},
-    //   {name: "Stephanie", age: 23}
-    //]
+  
      
   }
 

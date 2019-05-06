@@ -1,0 +1,26 @@
+.buttonOne {
+  position: absolute;
+  z-index: -1;
+  top: 60%;
+  left: 10%;
+  max-width: 500%;
+  margin:-60px 0 0 -60px;
+
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-direction: alternate-reverse;  
+
+}
+
+@keyframes example {
+ // 0%   {right:0px; right:0px;}
+  25%  {left:0px; top:200px;}
+  // 50%  {left:200px; top:200px;}
+  // 75%  {left:0px; top:200px;}
+  // 100% {left:0px; top:0px;}
+}
+
+.text {
+  color: white;
+}
