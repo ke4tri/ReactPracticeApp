@@ -11,18 +11,18 @@ render() {
 
   return(
     <div className="newWrapper  ">
-    <Carousel className="carouselWrapper clip-polygon" showThumbs={false} autoPlay infiniteLoop>
+    <Carousel className="carouselWrapper clip-polygon"showArrows={false} showStatus={false} showThumbs={false} autoPlay infiniteLoop>
     <div>
         <img src="https://www.wonolo.com/wp-content/uploads/2019/01/warehouse-operations.jpg" />
-        <p className="legend">Delivery Drivers</p>
+        <p className=""></p>
     </div>
     <div>
         <img src="https://www.wonolo.com/wp-content/uploads/2019/01/delivery-drivers.jpg" />
-        <p className="legend">Legend 2</p>
+        <p className=""></p>
     </div>
     <div>
         <img src="https://www.wonolo.com/wp-content/uploads/2019/01/general-labor.jpg" />
-        <p className="legend">Legend 3</p>
+        <p className=""></p>
     </div>
 </Carousel>
 

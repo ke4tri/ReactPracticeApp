@@ -4,16 +4,17 @@
 
   position: absolute;
   z-index: 0;
-  top: 25%;
-  left: 10%;
+  top: 31%;
+  left: 4%;
   border-radius: 100px !important;
   
   margin: 0 0 0 775px;
+  transform: rotate(-10deg);
 
 }
 
 .newWrapper {
-  border-radius: 40% !important;
+  
 }
 .clip-polygon {
   clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
