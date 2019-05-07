@@ -1,40 +1,45 @@
-
-
 // .image {
-//   position: absolute;
+//     position: absolute;
 //   z-index: -1;
 //   top: 5%;
 //   left: 25%;
 //   width: 120px;
 //   height: 120px;
-//   margin:-60px 0 0 -60px;
-//  -webkit-animation:spin 4s linear infinite;
-//  -moz-animation:spin 4s linear infinite;
-//   animation:spin 4s linear infinite;
+//   margin:-100px 0 0 -80px;
+//   opacity: 0.9;
+//   animation: rotation 8s linear 0s normal forwards ;
+//   //animation: bubble 2s linear 0. 1 normal forwards;
 // }
-// @-moz-keyframes spin { 40% { -moz-transform: rotate(50deg); } }
-// @-webkit-keyframes spin { 50% { -webkit-transform: rotate(50deg); } }
-// @keyframes spin { 30% { -webkit-transform: rotate(50deg);ransform:rotate(50deg); } }
 
 .image {
-    position: absolute;
-  z-index: -1;
-  top: 5%;
-  left: 25%;
-  width: 120px;
-  height: 120px;
-  margin:-60px 0 0 -60px;
- // animation: rotation 8s infinite ;
-  animation: rotation 8s linear 0s normal forwards ;
-  //animation: bubble 2s linear 0. 1 normal forwards;
+  position: absolute;
+z-index: -1;
+top: 1%;
+left: 50%;
+width: 120px;
+height: 120px;
+margin:-10px 0 0 500px;
+opacity: 0.9;
+animation: rotation 8s linear 0s normal forwards ;
+//animation: bubble 2s linear 0. 1 normal forwards;
 }
+
+// @keyframes rotation {
+//   from {
+//     transform: rotate(180deg);
+//   }
+//   to {
+//     transform: rotate(80deg);
+//   }
+
+// }
 
 @keyframes rotation {
   from {
     transform: rotate(180deg);
   }
   to {
-    transform: rotate(90deg);
+    transform: rotate(120deg);
   }
 
 }

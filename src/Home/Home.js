@@ -3,6 +3,7 @@ import './Home.scss';
 import HomeLogo from '../HomeLogo/HomeLogo';
 import HomeBackImage from '../HomeBackImage/HomeBackImage';
 import ModuleOne from '../ModuleOne/ModuleOne';
+import ModuleTwo from '../ModuleTwo/ModuleTwo';
 
 const home = (props) => {
   return (
@@ -11,8 +12,10 @@ const home = (props) => {
     <HomeBackImage />
     <HomeLogo />
     <ModuleOne />
-      <img className="backgroundImage" src='https://tse4.mm.bing.net/th?id=OIP.mMDYYNczFB-bVf9rGMWsdwE8DF'/>
+      <img className="backgroundImage" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHUC01PwShpuXtVZ_eTz_hRWhklrPR67746_q53TXRoCL6XD-gOQ'/>
+      <ModuleTwo />
     </div>
+    
   )
 }
 

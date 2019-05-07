@@ -4,8 +4,8 @@ import React from 'react';
 const Navbar = (props) => {
   return (
     <div className="NavBar">
-      <nav class="navbar navbar-expand-lg navbar-clear bg-warning">
-  <a class="navbar-brand text-dark" href="#">Wonolo</a>
+      <nav class="navbar navbar-expand-lg navbar-clear bg-transparent">
+  <a class="navbar-brand text-white" href="#">Wonolo</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
