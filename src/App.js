@@ -8,7 +8,6 @@ import Navbar from './NavBar/NavBar';
 
 class App extends Component {
   state = {
-  
      
   }
 
@@ -17,7 +16,7 @@ class App extends Component {
       <div className="App">
       <Navbar />
       <Home />
-      
+
   </div>
     );
   }
