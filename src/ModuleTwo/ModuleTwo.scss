@@ -1,0 +1,21 @@
+.carouselWrapper {
+  max-width: 500px;
+  max-height: auto;
+
+  position: absolute;
+  z-index: 0;
+  top: 25%;
+  left: 10%;
+  border-radius: 100px !important;
+  
+  margin: 0 0 0 775px;
+
+}
+
+.newWrapper {
+  border-radius: 40% !important;
+}
+.clip-polygon {
+  clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  /* Note that percentages work as well as px */
+}
