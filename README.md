@@ -1,4 +1,4 @@
-![Wonolo Frontend Draft React](https://github.com/ke4tri/Images/blob/master/Capture.JPG?raw=true)
+![Wonolo Frontend Draft React](https://github.com/ke4tri/Images/blob/master/NewWonolo.JPG?raw=true)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
