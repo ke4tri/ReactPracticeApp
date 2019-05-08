@@ -3,8 +3,11 @@
       position: relative;
       background-position: left -100px ;
       margin-top: -100px;
-      width: 200em;
-      height:auto ;
+      max-width: 100%;
+     // width: 200em;
+     min-width: 100%;
+     // height:auto ;
+     height: 200em;
 			background-repeat:  no-repeat;
       background-size:  cover;
       z-index: -5;

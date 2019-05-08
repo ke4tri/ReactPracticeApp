@@ -14,10 +14,7 @@ render() {
     <Carousel className="carouselWrapper clip-polygon"showArrows={false} showStatus={false} showThumbs={false} autoPlay infiniteLoop>
     <div>
         <img src="https://www.wonolo.com/wp-content/uploads/2019/01/warehouse-operations.jpg" />
-        <div className="imgNote">
-        <p className="display-3">Warehose Ops</p>
-        </div>
-       
+        <p className="legend imgNote">Warehose Ops</p>
     </div>
     <div>
         <img src="https://www.wonolo.com/wp-content/uploads/2019/01/delivery-drivers.jpg" />

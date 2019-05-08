@@ -1,11 +1,16 @@
 .imgNote {
   position: absolute;
   margin-bottom: 25% !important;
+  background: transparent !important;
+  font-size: 30px !important;
+  opacity: 0.9 !important;
 }
 
 .carouselWrapper {
   max-width: 500px;
   max-height: auto;
+  min-width: 500px;
+  min-height: auto;
 
   position: absolute;
   z-index: 0;
@@ -23,3 +28,29 @@
   /* Note that percentages work as well as px */
 }
 
+// @media only screen and (min-width: 300px) {
+//   .imgNote {
+//     position: absolute;
+//     margin-bottom: 25% !important;
+//     background: transparent !important;
+//     font-size: 30px !important;
+//     opacity: 0.9 !important;
+//   }
+  
+//   .carouselWrapper {
+//     max-width: 500px;
+//     max-height: auto;
+//     min-width: 500px;
+//     min-height: auto;
+  
+//     position: absolute;
+//     z-index: 0;
+//     top: 31%;
+//     left: 2%;
+//     border-radius: 100px !important;
+    
+//     margin: 0 0 0 775px;
+//     transform: rotate(-10deg);
+  
+//   }
+// }
